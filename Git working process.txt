@@ -1,0 +1,56 @@
+Step 1 for git working 
+==============#############################=========================
+==============#############################==================
+
+Branch -- Feature1 or master
+
+Now in feature1 branch and commit all changes in local and push in our feature1 branch
+
+git checkout master --
+
+git pull origin master
+
+git checkout feature1
+
+feature1-->git merge master
+feature1--> resolve confilict 
+if confilict is there thenuse
+feature1--> git mergetool
+feature1--> git add..
+feature1--> git commit
+feature1--> git push
+
+-------------------------------------------------------------------------
+If you want to push your code in master (as PR pool request)
+
+feature1--> git checkout master
+
+master--> git merge feature1
+
+
+it will merge feature1 code into master branch
+
+master-->git add .
+master-->git commit 
+master-->git push 
+
+-----------------------------------------------------------------------------------
+
+STEP 2 GIT WORKING 
+===================############################################===============================
+===================############################################============================
+-----------------------------
+Branch feature1,master
+
+feature1--> git checkout master
+
+master--> git pull 
+master--> git checkout feature1
+
+feature1--> git rebase master
+resolve confilict user git mergetool or either goto file and modify there only 
+
+
+feature1--> git status or then git add .
+
+feature1--> git rebase -- continue 
